@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Register</title>
+</head>
+<body>
+    <!-- main container -->
+    <div class="min-h-screen min-w-screen bg-cover bg-center bg-[url('./assets/BG.jpg')]">
+
+        <!-- card register -->
+         <div class="flex flex-row justify-center items-center min-h-screen">
+
+            <!-- daleman card -->
+            <div  class="bg-[#181A1CD6] p-5 w-96 rounded-lg">
+
+                <!-- Logo -->
+                <div class="flex flex-col items-center justify-center">
+                    <img src="./assets/Logo.png" alt="" class="w-28">
+                    <h1 class="text-white mt-8 text-2xl">Daftar</h1>
+                    <p class="text-white text-sm mt-2">Selamat Datang!</p>
+                </div>
+
+                <!-- form registernya-->
+                <div class="flex flex-col items-start gap-3 my-4 text-white text-sm">
+                    <div class="w-full">
+                        <label for="username" class="mb-2 text-sm font-medium text-gray-300">Username</label>
+                        <input 
+                            id="username" 
+                            type="text" 
+                            placeholder="Masukkan username" 
+                            class="w-full px-4 py-2 text-sm text-gray-300 placeholder-gray-200 bg-gray-800 border border-gray-600 rounded-md focus:outline-none focus:ring-2"
+                        />
+                    </div>
+
+                    <div class="w-full">
+                        <label for="Kata Sandi" class="mb-2 text-sm font-medium text-gray-300">Kata Sandi</label>
+                        <input 
+                            id="Kata Sandi" 
+                            type="text" 
+                            placeholder="Masukkan kata sandi" 
+                            class="w-full px-4 py-2 text-sm text-gray-300 placeholder-gray-200 bg-gray-800 border border-gray-600 rounded-md focus:outline-none focus:ring-2"
+                        />
+                    </div>
+
+                    <div class="w-full">
+                        <label for="Konfirmasi Kata Sandi" class="mb-2 text-sm font-medium text-gray-300">Konfirmasi Kata Sandi</label>
+                        <input 
+                            id="Kata Sandi" 
+                            type="text" 
+                            placeholder="Masukkan kata sandi" 
+                            class="w-full px-4 py-2 text-sm text-gray-300 placeholder-gray-200 bg-gray-800 border border-gray-600 rounded-md focus:outline-none focus:ring-2"
+                        />
+                    </div>
+
+                    <!-- Form Register -->
+                    <div class="flex flex-row justify-between text-white text-sm  ">
+                        <h1>Sudah punya akun? Masuk</h1>
+                        
+                    </div>
+
+                    <!--BUTTON-->
+                    <div class="text-white text-sm flex flex-col justify-center items-center my-4 gap-2 w-full">
+                        <button class="bg-[#3D4142] w-full p-2 rounded-lg">Daftar</button>
+                        <p>Atau</p>
+                        <div class=" w-full p-2 rounded-lg flex flex-row items-center justify-center gap-2 cursor-pointer border border-slate-600">
+                            <img src="./assets/google.svg" alt="" class="w-4">
+                            <p class="text-white text-sm">Daftar dengan google</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+         </div>
+
+    </div>
+</body>
+</html>
